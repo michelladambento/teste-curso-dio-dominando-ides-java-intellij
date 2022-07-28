@@ -27,8 +27,7 @@ public class Calculadora {
         Integer dobro = retornaDobro.apply(valor);
         System.out.printf("O dobro de %d é exatamente %d\n", valor, dobro);
 
-
-        UnaryOperator<String> retornaUppercase = s -> s.toUpperCase();
+        UnaryOperator<String> retornaUppercase = String::toUpperCase;
         System.out.println("Digite um nome: ");
         String nome;
         nome = scan.nextLine();
