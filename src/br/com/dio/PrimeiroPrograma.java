@@ -12,7 +12,7 @@ public class PrimeiroPrograma {
         int a = 5;
         int b = 3;
         int result = a + b;
-        String teste = "teste";
+        String teste = "teste commit";
 
         System.out.println("Hello World! " + result);
     }
