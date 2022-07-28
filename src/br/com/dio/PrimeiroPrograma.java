@@ -14,6 +14,8 @@ public class PrimeiroPrograma {
         int result = a + b;
         String teste = "teste commit";
 
+        double testevariable = 12.90;
+
         System.out.println("Hello World! " + result);
     }
 
